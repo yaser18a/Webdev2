@@ -1,0 +1,269 @@
+body{
+	background-color: white;
+}
+
+#main{
+	height: 750px;
+	width: 980px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#header{
+	width: 980px;
+	height: 175px;
+	background-color:rgba(100, 72, 61, 0.22);
+	background-repeat: repeat;
+}
+#theader{
+	width: 980px;
+	height: 25px;	
+	top: -11px;
+    position: relative;	
+	background-color: rgba(35, 132, 207, 0.5);
+}
+#theader ul{
+	font-size: 11px;
+	white-space: nowrap;
+	font-weight: bold;
+	color: black;
+
+}
+#theader li{
+	list-style-type: none;
+	float: left;
+	display: inline;
+	padding: 6 30 0 110;
+	position: relative;
+
+}
+
+#content
+{
+	height: 525px;
+	width: 980px;
+	background-color: white;
+	top: 12pxpx;
+	position: relative;
+}
+#middlecontent{
+	width: 400px;
+	height: 525px;
+	margin: 0 auto;
+
+
+}
+	
+ #boxtop{
+	border: 1px ;
+	border-color: black;
+	width: 410px;
+	height: 225px;
+	top: 40px;
+    position: relative;	
+	background-color: rgb(128, 181, 194);
+	color: blue;
+	background-image: url("../images/pic23.jpg");
+}
+#boxbottom{
+	border: 1px ;
+	border-color: black;
+	width: 410px;
+	height: 225px;
+	top: 45px;
+    position: relative;	
+	background-color: rgb(128, 181, 194);
+
+}
+
+
+
+
+#leftcontent{
+	height: 525px;
+	width: 250px;
+	border-right: 1px ;
+	float: left;
+	background-color: rgba(96, 236, 236, 0.5);
+	margin: 0px auto;
+
+}
+#lc1{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 15px;
+	left: 19px;
+}
+#lc2{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 50px;
+	left: 19px;
+}
+#rightcontent{
+	height: 525px;
+	width: 250px;
+	border-left: 1px ;
+	float: right;
+	background-color:rgba(96, 236, 236, 0.5);
+	margin: 0px auto;
+
+}
+#rightcontent li{
+	list-style-type: none;
+	text-align: center;
+}
+	#rightcontent1 li{
+	list-style-type: none;
+	text-align: center;
+}
+#footer{
+	width: 980px;
+	height: 20px;
+	background-color: rgba(29, 16, 16, 1.5);
+	margin: 0 auto;
+	text-align: right;
+}
+label{
+	position: relative;
+	left: 90px;
+	top: 50px;
+	border-radius: 7px 7px 7px 7px
+
+
+}
+#news{
+	width: 410px;
+	height: 10px;
+	color: blue;
+	font-size: 12px;
+
+}
+#company{
+	border: 1px solid;
+	border-color: black;
+	color: red;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	position: relative;
+    top: 113px;
+    background-image: url("../images/pic17.jpg");
+    right: 14px;
+
+}
+#company1{
+	border: 1px solid;
+	border-color: black;
+	color: red;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	position: relative;
+    top: 113px;
+    background-image: url("../images/pic31.jpg");
+    right:14px;
+}
+#centr{
+	height: 525px;
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+
+}
+#careercontent{
+	border: 1px ;
+	width: 980px;
+	height: 525px;
+	border-color: black;
+	top: 5px;
+	position: relative;
+
+}
+#careercontent1{
+	border: 1px solid ;
+	border-color: blue;
+	width: 980px;
+	height: 525px;
+	border-color: black;
+	top: 5px;
+	position: relative;
+
+}
+#leftcontent1{
+height: 525px;
+width: 250px;
+border-right: 1px;
+float: left;
+background-color: rgba(96, 236, 236, 0.5);
+
+top: -4px;
+position: relative;
+}
+#rightcontent1{
+height: 525px;
+width: 250px;
+border-left: 1px;
+float: right;
+background-color: rgba(96, 236, 236, 0.5);
+margin: 0px auto;
+top: -4px;
+position: relative;
+}
+#careermiddle{
+	height: 525px;
+	width: 450px;
+	border: 1px ;
+	border-color: black;
+	margin: 0px auto;
+	position: relative;
+
+}
+code{
+	color: rgb(40, 130, 228);
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+code4{
+	color: blue;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+#company2{
+	border: 1px solid;
+	border-color: black;
+	color: red;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	position: relative;
+    top: 113px;
+    background-image: url("../images/pic19.jpg");
+    right:14px;
+}
+#company3{
+	border: 1px solid;
+	border-color: black;
+	color: red;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	position: relative;
+    top: 113px;
+    background-image: url("../images/pic30.jpg");
+    right:14px;
+}
+#code1{
+	color: rgb(40, 130, 228);
+	font-size: 12px;
+	font-style: italic;
+	
+}
+#careerform{
+	top: 150px;
+	position: relative;
+}

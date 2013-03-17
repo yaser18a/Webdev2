@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title>webpage</title>
+
+</head>
+
+	<body>
+		<script type="text/javascript">
+		
+		function submission()
+		{
+			var x=document.getElementById("txtname").value;
+			if (x==null || x=="") 
+			{
+				alert("Plz enter ur name");
+				return false;
+			}
+			else
+			  {
+			      alert("THANK YOU");
+		     }
+		}
+
+		function image()
+		{
+			var z=document.getElementById("lc1")
+			if (z.src.match("images/pic24.jpg"))
+			 {
+			 	z.src="images/pic25.jpg"
+			 }
+			 else 
+			 	{
+			 	z.src="images/pic24.jpg"
+			    }
+			   
+
+
+
+		}
+
+
+		</script>
+
+
+
+
+
+
+		<link rel="stylesheet" href="css/style.css">
+		<div id="main">
+
+			<div id="header">
+				<img  width="980px" height="150px" src="images/pic8.jpg">
+				<div id="theader">
+					<ul>
+						<li><a href="main.html">Home</a></li>
+						<li><a href="aboutus.html">About us</li>
+						<li><a href="projects.html">Projects</li>
+						<li><a href="careers.html">Careers</a></li>
+							
+					</ul>
+					</div>
+						</div>
+				<div id="careercontent">
+					<div id="leftcontent1">
+						
+						<img id="lc1" src="images/pic24.jpg" onclick="image()" >
+						<img id="lc2" src="images/pic27.jpg">				
+
+					</div>
+					<div id="rightcontent1">
+						<div id="careerform">
+							<p><i>for details kindly fill the information</p>
+						<form>
+							<table>
+								<tr><td>Name</td><td><input id="txtname"type="text" name="txtname"></td></tr>
+								<tr><td>email</td><td><input id="txtemail" type="text" name="txtemail"></td></tr>
+								<tr><td>MobNo</td><td><input type="text" name="txtmobno"></td></tr>
+								<tr><td colspan="2" align="center"><button onclick="submission()">submit</button></td></tr>
+							</table>
+
+						</form>
+					</div>
+
+						<!-- <ul>
+						<li><a href="main.html"> Home </a></li><br>
+						<li>About us</li><br>
+						<li>Projects</li><br>
+						<li>Careers</li><br> -->
+						<!-- <div id="company2">
+						</div> -->
+					</div>
+					<div id="careermiddle">
+						<code><h3><u>Career Oportunity in our Premises</u></h3>
+						Welcome to The Trace Technologies Pvt. Ltd.
+
+						Challenge yourself with interesting work focused on delivering innovation and proven solutions.
+
+					Trace Technologies Pvt. Ltd. offers exciting career opportunities in software development and Software testing in India.<br>
+
+							<ul><li>	2-4 years of experience in JAVA, JSP, SQL.<br></li>
+								<li>3-4 years of experience in ORACLE<br></li>
+								<li>2-4 years of experience in VC++, MFC<br></li>
+								<li>2-4 years of experience in Sharepoint<br></li>
+								<li>Software Developer in web environment with 1-3 years of experience.<br></li>
+								</code></ui>
+					</div>
+
+
+
+
+				</div>
+
+				
+		<div id="footer">
+			<p id="news">designed by yaser</div>
+
+
+
+	</body>
+</html>
